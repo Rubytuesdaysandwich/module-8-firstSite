@@ -12,6 +12,11 @@ and open the template in the editor.
     <body>
         <?php
         // put your code here
+        require_once('../private/initialize.php');
+        
         ?>
+        <?php include('../private/shared/links_header/links_header.php');?>
+        <?php include('../private/shared/links_footer/links_footer.php');?>
     </body>
 </html>
+

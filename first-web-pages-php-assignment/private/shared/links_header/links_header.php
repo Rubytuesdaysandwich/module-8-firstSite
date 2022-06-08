@@ -10,6 +10,7 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
+    <header>
         <ul style="list-style: none;">
             <li><a href="links2.php?page=1">Page 1</a></li>
             <li><a href="links2.php?page=2">Page 2</a></li>
@@ -17,5 +18,4 @@ and open the template in the editor.
             <li><a href="links2.php?page=4">Page 4</a></li>
             <li><a href="links2.php?page=5">Page 5</a></li>
         </ul>
-    </body>
-</html>
+    </header>
