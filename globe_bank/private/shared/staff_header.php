@@ -9,7 +9,7 @@ if (!isset($page_title)){$page_title='staff Area';}
   <head>
     <title>GBI - <?php echo $page_title;?></title>
     <meta charset="utf-8">
-    <link rel="stylesheet" media="all" href="../stylesheets/staff.css">
+    <link rel="stylesheet" media="all" href=<?php echo url_for('/stylesheets/staff.css');//pulling css from stylesheets staff.css?>>
   </head>
   <body>
   <header> 
@@ -17,6 +17,6 @@ if (!isset($page_title)){$page_title='staff Area';}
 </header>   
 <navigation>
     <ul>
-        <li> <a href="index.php">Menu</a></li>
+        <li> <a href =" <?php echo url_for('/staff/index.php');//for menu button in the header?>">Menu</a></li>
     </ul>
 </navigation>
