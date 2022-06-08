@@ -2,7 +2,6 @@
 <?php
 //$id = isset($_GET['id']) ? $_GET['id']:'1';// this is the older way.
 $id =$_GET['id'] ??'1';//php 7.0//special global variable
-
 //sending $id to the browser
 echo h($id);
 ?>
