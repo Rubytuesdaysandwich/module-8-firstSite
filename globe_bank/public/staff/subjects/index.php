@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body></body>
-</html>
+<?php require_once('../../../private/initialize.php');?><!--file path to initialize.php use static string not dynamic data-->
+
+<?php $page_title='subjects';?>
+<?php include('../../../private/shared/staff_header.php');?><!--file path to private/shared/ staff_header-->
+<div id="content">
+
+</div>
+
+<?php include('../../../private/shared/staff_footer.php');?><!--file path to private/shared/staff_footer-->
